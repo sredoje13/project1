@@ -1,0 +1,70 @@
+.div1{
+font-size: xx-large;
+background-color: greenyellow;
+width: 30rem;
+display: flex;
+flex-direction: column;
+padding:20px;
+border-radius: 20px;
+font-family: 'Arima Madurai', cursive;
+}g
+.div{
+margin-top: 100px;
+}
+.activlink{
+   
+    color:white
+}
+.activlink:hover{
+    color:green;
+}
+.btn{
+    background-color: greenyellow;
+    border: greenyellow;
+    font-size: larger;
+    color:green
+}
+.btn:hover{color:white}
+.img{
+    width: 350px;
+    height:350px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+}
+.galery{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: beige;
+    width: 100%;
+}
+.bigimage{
+    width:500px;
+    height: 500px;
+    position:absolute;
+    
+   
+} 
+.opacity{
+    width: 350px;
+    height:350px;
+    margin-left: 100px;
+    margin-top: 30px;
+    opacity: 0.5;
+}
+@media  only screen and (max-width: 795px) {
+    .div1{
+        font-size:medium;
+background-color: rgb(25, 138, 33);
+width:auto;
+margin-left:10%;
+margin-right:10% ;
+
+    }
+
+
+}

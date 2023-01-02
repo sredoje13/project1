@@ -1,0 +1,26 @@
+.productitem{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 600px;
+    height: 100px;
+    align-items: center;
+    font-size: larger;
+    margin-left: 28%;
+    background-color: rgb(42, 165, 71);
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 10px;
+    color:white
+}
+.productitem:hover{
+    background-color: rgb(12, 123, 51);
+}
+.myname{
+background-color: green;
+color:greenyellow;
+border-radius: 20px;
+box-shadow: 5px,10px,10px,5px black;
+font-size: xxx-large;
+max-width:500px;
+}
